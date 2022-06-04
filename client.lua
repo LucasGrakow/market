@@ -7,8 +7,8 @@ local Proxy = module("vrp","lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 
 src = {}
-Tunnel.bindInterface("grk_garages",src)
-vSERVER = Tunnel.getInterface("grk_garages")
+Tunnel.bindInterface("market",src)
+vSERVER = Tunnel.getInterface("market")
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------

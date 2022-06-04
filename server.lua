@@ -8,8 +8,8 @@ vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP")
 
 src = {}
-Tunnel.bindInterface("grk_garages",src)
-vCLIENT = Tunnel.getInterface("grk_garages")
+Tunnel.bindInterface("market",src)
+vCLIENT = Tunnel.getInterface("market")
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
